@@ -1,0 +1,49 @@
+.block1 {
+    position: relative;
+}
+.block1 img{
+    width: 100%;
+    height: auto;
+}
+.block1 h1{
+    position: absolute;
+    opacity:0.5;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+}
+.block2 {
+    display: flex;
+    align-items: strech;
+}
+
+.block2 img,
+.block3 img {
+    max-width: 50%; /* Set maximum width for the image */
+    height: auto;
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.block2 .content,
+.block3 .content1 {
+    flex: 1;
+    margin-left: 20px; 
+    max-width: calc(50% - 20px); /* Set maximum width for the content */
+}
+
+
+
+.block3 {
+    display: flex;
+    align-items: strech; 
+}
+
+
+
+.block4 {
+    margin-left: 10%;
+}
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+}
